@@ -1,6 +1,6 @@
 #include <cstdio>
 
-int findArrayMax(int score[], int n)
+int findArrayMax(int score[], int n) // 주어진 배열 속에서 최대값 찾는 함수
 {
 	int tmp = score[0];
 	for (int i = 1; i < n;i++)
